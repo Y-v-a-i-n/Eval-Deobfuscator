@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">const deobfuscate = (input) => {try{document.getElementById("output").value = input.startsWith("eval(function(p,a,c,k,e,d)") ? eval(input.replace("eval", "")) : "this does not come from the right obfuscation"}catch{document.getElementById("output").value = "An error has occurred"}}</script>
+    <title>JSDefender Deobfuscator</title>
+</head>
+<body>
+    <center>
+        <span>
+            <h1>Eval Deobfuscator</h1>
+            <textarea cols=140 id=input rows=9 placeholder='eval(function(p,a,c,k,e,d){e=function(c){return c};if(!'></textarea></br>
+            <button id=button onclick="deobfuscate(document.getElementById('input').value)">Deobfuscate !</button></br>
+            <textarea cols=140 id=output readonly rows=9></textarea>
+        </span>
+    </center>
+</body>
+</html>
