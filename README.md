@@ -9,4 +9,4 @@ $ npm install electron -g
 ```sh
 $ electron index.js
 ```
-![image](https://cdn.discordapp.com/attachments/1025769112221270050/1053077296761798696/image.png)
+![image](https://cdn.discordapp.com/attachments/1025769112221270050/1053082405428277249/image.png)
